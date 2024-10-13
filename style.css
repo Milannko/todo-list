@@ -59,8 +59,9 @@ button {
   color: #fff;
   background-color: #333;
   outline: none;
-  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  padding: 0.5rem 1.8rem;
   box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  min-width: 30%;
 }
 
 button:active {
