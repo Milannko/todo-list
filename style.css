@@ -54,7 +54,6 @@ button {
   font-size: 1.2rem;
   text-align: center;
   height: 2.5rem;
-  max-width: 30%;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -100,4 +99,11 @@ button:active {
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 400px) {
+  button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+  }
 }
