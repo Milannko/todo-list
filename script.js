@@ -15,6 +15,13 @@ clearBtn.addEventListener("click", clearTodos);
 // Load todos from localStorage when the page is loaded
 window.onload = loadTodos;
 
+// Trigger addTodo when the "Enter" key is pressed
+textInput.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    addTodo();
+  }
+});
+
 function addTodo() {
   let todoText = textInput.value;
   if (todoText === "") {
